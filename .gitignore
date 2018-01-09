@@ -3,3 +3,7 @@
 .idea/
 /java/target/
 /java/PrimePrinter.iml
+
+#Javascript ignore
+/javascript/node_modules/
+/javascript/PrimePrinter.iml
