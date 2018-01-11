@@ -1,9 +1,97 @@
 
-/.idea/
-.idea/
-/java/target/
-/java/PrimePrinter.iml
+PrimePrinter.iml
 
-#Javascript ignore
-/javascript/node_modules/
-/javascript/PrimePrinter.iml
+.idea/
+/.idea/
+/java/target/
+
+###################
+# compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+*.user
+
+packages
+NuGet.exe
+*.[Cc]ache
+_[Ss]cripts
+*.dot[Cc]over
+*.nupkg
+*.ncrunchsolution
+
+# Include dlls if they're in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
+
+# Include dlls if they're in the CommonReferences directory
+!*CommonReferences/*.dll
+
+####################
+# VS Upgrade stuff #
+####################
+UpgradeLog.XML
+_UpgradeReport_Files/
+
+###############
+# Directories #
+###############
+.vs
+[Bb]in
+[Oo]bj
+[Tt]est[Rr]esults
+
+###################
+# Web publish log #
+###################
+*.Publish.xml
+
+#############
+# Resharper #
+#############
+/_ReSharper.*
+*.ReSharper.*
+*[Rr]esharper*
+
+############
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+######################
+# Logs and databases #
+######################
+*.log
+*.svclog
+*.sqlite
+
+######################
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+######################
+# Nodes, NPM folders #
+######################
+bower_components
+node_modules
+typings
+yarn.lock
