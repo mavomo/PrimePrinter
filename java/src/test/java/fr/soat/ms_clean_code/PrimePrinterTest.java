@@ -17,10 +17,10 @@ public class PrimePrinterTest {
 
     @Test
     public void makeSureOutputMatchesGold() throws Exception {
-        PrimePrinter.main(new String[0]);
+        fr.soat.ms_clean_code.PrimePrinter.main(new String[0]);
         BufferedReader lead = new BufferedReader(new FileReader(leadFile));
 
-        String goldFilePath = new File("lead.txt").getAbsolutePath();
+        String goldFilePath = new File("gold.txt").getAbsolutePath();
         BufferedReader gold = new BufferedReader(new FileReader(goldFilePath));
         String line;
         while ((line= gold.readLine()) != null)
